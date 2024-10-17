@@ -1,4 +1,4 @@
-import './timeline.css';
+import "./timeline.css";
 import { Link } from "react-router-dom";
 
 export default function Timeline() {
@@ -11,13 +11,12 @@ export default function Timeline() {
               <h3>The World Wide Web and Basic HTML</h3>
               <p>Text. </p>
             </div>
-            <Link to="/error" className="link">
+            <Link to="/FirstWorldWideWeb" className="link">
               <div class="time">
                 <h4>1991-1993</h4>
               </div>
             </Link>
           </li>
-
           <li>
             <div class="content">
               <h3>Introduction of HTML Tags for Structure</h3>
